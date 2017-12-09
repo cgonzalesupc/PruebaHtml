@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Ejercicios de selectores</title>
+
+<style>
+    
+    
+    #main{
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    #ul1{
+            list-style-type:none;
+            margin: 0px;
+            padding: 0px;
+    }
+    
+    li{
+        display: inline;
+    }
+    
+    #ul2{
+            list-style-type:none;
+            padding: 0px;
+            margin: 0px
+    }
+    
+    .li_ul2{
+        display: inline;
+        padding-left: 8px;
+        border-right:  1px solid;
+    }
+        
+    nav{
+        border: 1px solid;
+        border-color: black;
+        margin-bottom: 20px;
+        background-color: blue;
+    }
+    
+    footer{
+        border: 1px solid;
+        border-color: black;
+        float: left;
+        width: 100%;
+    }
+    
+    #aside1{
+        height: 600px;
+        width: 150px;
+        float: left;
+    }
+    
+    #aside2{
+        border: 1px solid;
+        border-color: orange;
+        height: 500px;
+        width: 150px;
+        float: left;
+    }
+    
+    section{
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 500px;
+        width: 613px;
+        float: left;
+    }
+    .div1_side2{
+        background-color: orange;
+        color:white;
+        text-align: center;
+        height: 80px;
+        margin: 15px 5px 0 5px;
+        padding: 25px 10px 25px 10px;
+    }
+    
+    .div2_side2{
+        font-family: cursive;
+        font-size: 10px;
+        margin: 0 5px 0 5px;
+    }
+    
+    .sec1_h2{
+        color:brown;
+    }
+    img{
+        float:left;
+    }
+    .a_ul1{
+        color: white;
+    }
+    .aside1_div1{
+        border: 1px solid;
+        border-color: gray;
+        height: 300px;
+        width: 100%;
+        float: left;
+    }
+    .aside1_div2{
+         border: 1px solid;
+        border-color: orange;
+        height: 200px;
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        border-style: dotted;
+        background-color: antiquewhite;
+    }
+    figure{
+        margin: 0 10px 0 0;
+        float: left;        
+    }
+    #span1_side1_div2{
+        
+        color:orange;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    #span2_side1_div1{
+        
+        color:blue;
+        font-size: 20px;
+    }
+     #span1_side1_div1{
+        color:gray;
+        font-size: 15px;
+    }
+    a_side1_div1 {
+        font-size: 18px
+    }
+</style>
+    
+</head>
+
+<body>
+    
+    <div id="main">
+        
+        <header>
+    <h1> LOGOTIPO </h1>
+    </header>
+    
+    <nav>
+        <ul id="ul1">
+            <li> <a href="#" class="a_ul1"> lorem </a></li>
+            <li> <a href="#" class="a_ul1"> ipsum </a></li>
+            <li> <a href="#" class="a_ul1"> doler </a></li>
+            <li> <a href="#" class="a_ul1"> asmet </a></li>
+        </ul>
+    </nav>
+    
+        <aside id="aside1">
+            <div class="aside1_div1">
+                <span id="span2_side1_div1"> Noticias </span>
+                <br>
+                <span id="span1_side1_div1"> dd/mm/aa </span>
+                <br>
+                <a href="#" class="a_side1_div1">Lorem ipsum dolor sit amet</a>
+                <br>
+                <span id="span1_side1_div1"> dd/mm/aa </span>
+                <br>
+                <a href="#">Consectuer adispincy elit</a>
+                <br>
+                <span id="span1_side1_div1"> dd/mm/aa </span>
+                <br>
+                <a href="#">Donec moletie nunc eu sapien</a>
+                <br>
+                <span id="span1_side1_div1"> dd/mm/aa </span>
+                <br>
+                <a href="#">Maecenas aliquam dolor eget metus</a>
+                <br>
+                <span id="span1_side1_div1"> dd/mm/aa </span>
+                <br>
+            </div>
+            <div class="aside1_div2">
+                <span id="span1_side1_div2"> Publicidad </span>
+                <br>
+                <span id="span2_side1_div2"> Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las </span>
+                <br>
+                <a href="#">Seguir Leyendo ...</a>
+            </div>
+        </aside>
+
+        <section>
+            <h2 class="sec1_h2" style="margin-top:0;">
+                Lorem ipsum dolor sit amet, consecietuer adiposcing elit
+            </h2>
+            
+            <div>
+                <figure>
+                    <img src="http://lorempixel.com/120/100/sports/" alt="imagen">
+                </figure>
+            <span>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
+            </span>
+                <br>
+            <a href="#">Seguir Leyendo ...</a>
+            </div>
+            
+            <h2 class="sec1_h2">
+                Vivamus lobortis turpos ac ante fringila feucibus
+            </h2>
+            <div>
+                <figure>
+                    <img src="http://lorempixel.com/120/100/sports/" alt="imagen">
+                </figure>
+            <span>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años,
+            </span>
+                <br>
+            <a href="#">Seguir Leyendo ...</a>
+        </section>
+
+        <aside id="aside2">
+            <div class="div1_side2"> <p> phasellus blandit</p></div>
+            <div class="div2_side2">
+                <span>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</span>
+                <br>
+            <a href="#">Seguir Leyendo ...</a>
+            </div>
+            <div class="div1_side2"> <p> Nullum vul thirp</p></div>
+            <div class="div2_side2"> 
+                <span>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</span>
+                <br>
+            <a href="#">Seguir Leyendo ...</a>
+            </div>
+        </aside>
+    
+    <footer>
+    <ul id="ul2">
+            <li class="li_ul2"> <a href="#"> lorem </a></li>
+            <li class="li_ul2"> <a href="#"> ipsum </a></li>
+            <li class="li_ul2"> <a href="#"> doler </a></li>
+            <li> <a href="#"> asmet </a></li>
+        </ul>
+    </footer>
+        
+    </div>
+</body>
+
+</html>
